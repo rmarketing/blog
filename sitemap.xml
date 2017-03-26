@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/localhost/post/google-tag-manager/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/localhost/post/basic-google-analytics-setup/</loc>
+    <lastmod>2017-03-25T10:20:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/localhost/post/get-the-most-out-of-your-google-analytics/</loc>
+    <lastmod>2017-03-24T18:40:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/localhost/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/tags/google-analytics/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/categories/google-analytics/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/tags/online-marketing/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/categories/online-marketing/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/post/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/tags/tracking/</loc>
+    <lastmod>2017-03-24T18:40:24+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/categories/tracking/</loc>
+    <lastmod>2017-03-24T18:40:24+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/localhost/</loc>
+    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
