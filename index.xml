@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rmarketing.io</title>
-    <link>/rmarketing.io/blog/index.xml</link>
+    <link>http://rmarketing.io/blog/index.xml</link>
     <description>Recent content on rmarketing.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Mar 2017 11:09:05 +0100</lastBuildDate>
-    <atom:link href="/rmarketing.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rmarketing.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>google tag manager</title>
-      <link>/rmarketing.io/blog/post/google-tag-manager/</link>
+      <link>http://rmarketing.io/blog/post/google-tag-manager/</link>
       <pubDate>Sat, 25 Mar 2017 11:09:05 +0100</pubDate>
       
-      <guid>/rmarketing.io/blog/post/google-tag-manager/</guid>
+      <guid>http://rmarketing.io/blog/post/google-tag-manager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Basic Google Analytics Setup</title>
-      <link>/rmarketing.io/blog/post/basic-google-analytics-setup/</link>
+      <link>http://rmarketing.io/blog/post/basic-google-analytics-setup/</link>
       <pubDate>Sat, 25 Mar 2017 10:20:49 +0100</pubDate>
       
-      <guid>/rmarketing.io/blog/post/basic-google-analytics-setup/</guid>
+      <guid>http://rmarketing.io/blog/post/basic-google-analytics-setup/</guid>
       <description>&lt;p&gt;In order to gain insights of your website from reports or data analysis, you have to collect data of the website usage first.  Google Analytics does the core reporting and data collection. In this post we explain how to setup up a Google Analytics account with standard page tracking. If you already have a working Google Analytics account you can skip this post.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -48,16 +48,16 @@ Yet, you have to add the tracking code snippet to your website.
 Instead of adding the code snippet directly we recommend to use another tool out
 of Google&amp;rsquo;s toolbox: the &lt;strong&gt;Google Tag Manager (GTM)&lt;/strong&gt;. GTM is a nifty tool when
 comes to staying in charge of a plethora of tracking tools and services.
-Which is why we dedicated an &lt;a href=&#34;rmarketing.io/blog/post/google-tag-manager&#34;&gt;extra blog post to Google Tag Manager (GTM)&lt;/a&gt;.&lt;/p&gt;
+Which is why we dedicated an &lt;a href=&#34;http://rmarketing.io/blog/post/google-tag-manager&#34;&gt;extra blog post to Google Tag Manager (GTM)&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Get the most out of your Google Analytics Tracking</title>
-      <link>/rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</link>
+      <link>http://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</link>
       <pubDate>Fri, 24 Mar 2017 18:40:24 +0100</pubDate>
       
-      <guid>/rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</guid>
+      <guid>http://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</guid>
       <description>&lt;p&gt;Many who use Google Analytics (GA) to track their websites&amp;rsquo; online traffic only
 set up a basic tracking implementation. I.e., copy and paste Google&amp;rsquo;s tracking code
 snippet into one&amp;rsquo;s website and start collecting data.&lt;/p&gt;
