@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tracking on rmarketing.io</title>
-    <link>/rmarketing.io/blog/tags/tracking/index.xml</link>
+    <link>https://rmarketing.io/blog/tags/tracking/index.xml</link>
     <description>Recent content in Tracking on rmarketing.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/rmarketing.io/blog/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rmarketing.io/blog/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Get the most out of your Google Analytics Tracking</title>
-      <link>/rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</link>
+      <link>https://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</link>
       <pubDate>Fri, 24 Mar 2017 18:40:24 +0100</pubDate>
       
-      <guid>/rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</guid>
+      <guid>https://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</guid>
       <description>&lt;p&gt;Many who use Google Analytics (GA) to track their websites&amp;rsquo; online traffic only
 set up a basic tracking implementation. I.e., copy and paste Google&amp;rsquo;s tracking code
 snippet into one&amp;rsquo;s website and start collecting data.&lt;/p&gt;

@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/rmarketing.io/blog/post/google-tag-manager/</loc>
+    <loc>https://rmarketing.io/blog/post/google-tag-manager/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/post/basic-google-analytics-setup/</loc>
+    <loc>https://rmarketing.io/blog/post/basic-google-analytics-setup/</loc>
     <lastmod>2017-03-25T10:20:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</loc>
+    <loc>https://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</loc>
     <lastmod>2017-03-24T18:40:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/categories/</loc>
+    <loc>https://rmarketing.io/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/tags/google-analytics/</loc>
+    <loc>https://rmarketing.io/blog/tags/google-analytics/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/categories/google-analytics/</loc>
+    <loc>https://rmarketing.io/blog/categories/google-analytics/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/tags/online-marketing/</loc>
+    <loc>https://rmarketing.io/blog/tags/online-marketing/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/categories/online-marketing/</loc>
+    <loc>https://rmarketing.io/blog/categories/online-marketing/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/post/</loc>
+    <loc>https://rmarketing.io/blog/post/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/tags/</loc>
+    <loc>https://rmarketing.io/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/tags/tracking/</loc>
-    <lastmod>2017-03-24T18:40:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/rmarketing.io/blog/categories/tracking/</loc>
+    <loc>https://rmarketing.io/blog/tags/tracking/</loc>
     <lastmod>2017-03-24T18:40:24+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rmarketing.io/blog/</loc>
+    <loc>https://rmarketing.io/blog/categories/tracking/</loc>
+    <lastmod>2017-03-24T18:40:24+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmarketing.io/blog/</loc>
     <lastmod>2017-03-25T11:09:05+01:00</lastmod>
     <priority>0</priority>
   </url>
