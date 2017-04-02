@@ -14,7 +14,34 @@
       <pubDate>Sat, 25 Mar 2017 11:09:05 +0100</pubDate>
       
       <guid>http://rmarketing.io/blog/post/google-tag-manager/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;As discussed at the end of the previous post,
+we recommend &lt;strong&gt;Google Tag Manager (GTM)&lt;/strong&gt; as an umbrella for all your tracking
+tokens and code snippets. Even if Google Analytics is the only service you use,
+&lt;strong&gt;GTM&lt;/strong&gt; remains a simple and expandable option.&lt;/p&gt;
+
+&lt;p&gt;The big advantage of &lt;strong&gt;GTM&lt;/strong&gt; is that you only have to add a single code
+snippet from Google Tag Manager to your website instead of including multiple
+tracking snippets from services like Google Analytics, AdWords,
+AdWords Remarketing, Facebook, etc. Through &lt;strong&gt;GTM&lt;/strong&gt;&amp;rsquo;s web interface, you can
+manage all these tracking snippets. That way you are flexible to make changes
+or extend your tracking implementation in the future without touching the
+code of your website.&lt;/p&gt;
+
+&lt;h3 id=&#34;setup-google-tag-manager-gtm&#34;&gt;Setup Google Tag Manager (GTM)&lt;/h3&gt;
+
+&lt;h4 id=&#34;1-create-gtm-account&#34;&gt;1. Create GTM Account&lt;/h4&gt;
+
+&lt;p&gt;To get started managing your tags using Tag Manager:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://www.google.com/analytics/tag-manager/&#34;&gt;https://www.google.com/analytics/tag-manager/&lt;/a&gt; and create a Tag Manager account (you can use your existing Google account).&lt;/li&gt;
+&lt;li&gt;Create a container for your site or app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://rmarketing.io/blog/blog/images/gtm1_small.png&#34; alt=&#34;Creating an account in Google Tag Manager&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +50,7 @@
       <pubDate>Sat, 25 Mar 2017 10:20:49 +0100</pubDate>
       
       <guid>http://rmarketing.io/blog/post/basic-google-analytics-setup/</guid>
-      <description>&lt;p&gt;In order to gain insights of your website from reports or data analysis, you have to collect data of the website usage first.  Google Analytics does the core reporting and data collection. In this post we explain how to setup up a Google Analytics account with standard page tracking. If you already have a working Google Analytics account you can skip this post.&lt;/p&gt;
+      <description>&lt;p&gt;In order to gain insights to your website&amp;rsquo;s traffic and user behavior from reports or data analysis, you have to collect data of the website usage first.  Google Analytics does the core reporting and data collection. In this post we explain how to setup up a Google Analytics account with standard page tracking. If you already have a working Google Analytics account you can skip this post.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Sign in to Google Analytics or create an account: &lt;a href=&#34;https://analytics.google.com/analytics/&#34;&gt;https://analytics.google.com/analytics/&lt;/a&gt;&lt;/li&gt;
@@ -62,9 +89,10 @@ set up a basic tracking implementation. I.e., copy and paste Google&amp;rsquo;s 
 snippet into one&amp;rsquo;s website and start collecting data.&lt;/p&gt;
 
 &lt;p&gt;Doing so is sufficient to obtain basic metrics such as visitors or page views.
-Yet simply placing a basic code snippet falls short of both deeper and
+Yet simply placing a basic code snippet falls short of both: deeper and
 regular analysis of your (e-commerce) online business.
-And in turn it falls short of actually learning from information.
+And in turn it also falls short of actually learning from information by
+steadily observing metrics and assess them over time.
 Hence we start a series of blog posts to help you get the most out of
 your Google Analytics implementation.&lt;/p&gt;
 
