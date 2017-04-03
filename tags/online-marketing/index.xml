@@ -9,12 +9,12 @@
     <atom:link href="http://rmarketing.io/blog/tags/online-marketing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>overview</title>
+      <title>blog post overview</title>
       <link>http://rmarketing.io/blog/sites/</link>
       <pubDate>Sun, 02 Apr 2017 22:21:14 +0200</pubDate>
       
       <guid>http://rmarketing.io/blog/sites/</guid>
-      <description>&lt;p&gt;mooooo&lt;/p&gt;
+      <description>&lt;p&gt;Test list overview&lt;/p&gt;
 </description>
     </item>
     
