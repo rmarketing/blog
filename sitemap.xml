@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://rmarketing.io/blog/sites/</loc>
+    <loc>http://rmarketing.io/blog/post/ecommerce-tracking-with-google-analytics-and-tag-manager/</loc>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rmarketing.io/blog/overview/</loc>
     <lastmod>2017-04-02T22:21:14+02:00</lastmod>
   </url>
   
@@ -28,31 +33,31 @@
   
   <url>
     <loc>http://rmarketing.io/blog/tags/google-analytics/</loc>
-    <lastmod>2017-04-02T22:21:14+02:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rmarketing.io/blog/categories/google-analytics/</loc>
-    <lastmod>2017-04-02T22:21:14+02:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rmarketing.io/blog/tags/online-marketing/</loc>
-    <lastmod>2017-04-02T22:21:14+02:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rmarketing.io/blog/categories/online-marketing/</loc>
-    <lastmod>2017-04-02T22:21:14+02:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rmarketing.io/blog/post/</loc>
-    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,7 +80,7 @@
   
   <url>
     <loc>http://rmarketing.io/blog/</loc>
-    <lastmod>2017-03-25T11:09:05+01:00</lastmod>
+    <lastmod>2017-04-05T21:42:05+02:00</lastmod>
     <priority>0</priority>
   </url>
   
