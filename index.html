@@ -61,7 +61,86 @@
     </h1>
 
     <span class="post-date">Wed, Apr 5, 2017</span>
-    
+    <p>In order to setup ecommerce tracking we assume that you successfully implemented Google Analytics with Google Tag Manager.</p>
+
+<p>Ecommerce tracking enables the tracking of sales data on the thank you page (confirmation or checkout page). This includes all information about your shopping basket like number of sales, products, revenues, value per order, etc.</p>
+
+<p>In other words, the confirmation page features a data layer with all information about the transaction, which we can extract with the Google Tag Manager and Google Analytics implementation.</p>
+
+<p>There are two main types of ecommerce implementation methods:</p>
+
+<p><strong>Standard ecommerce</strong> reports in Google Analytics allow you to analyze purchase activity on your site or app. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other data.</p>
+
+<p><strong>Enhanced ecommerce</strong> adds functionality by allowing you to see when customers have added items to their shopping carts, when they have started the checkout process, and when they have completed a purchase. You can also use Enhanced Ecommerce to identify segments of customers who are falling out of the shopping funnel.</p>
+
+<p>Both methods of ecommerce tracking can be implemented with Google Tag Manager. In this section we will focus on <strong>standard ecommerce tracking</strong>.</p>
+
+<p>Before we start with the implementation of the standard ecommerce tracking, there is a really useful Youtube video that is worth watching and might clarify further questions you have upfront the implementation: <a href="https://youtu.be/ZKjlIhFJMCU">https://youtu.be/ZKjlIhFJMCU</a></p>
+
+<p>The setup of the standard ecommerce tracking is split into three steps:</p>
+
+<ol>
+<li>Installation of the data layer</li>
+<li>Testing the data layer</li>
+
+<li><p>Configuration of the Google Tag Manager</p></li>
+
+<li><p>Installation of the data layer object on the thank you page.</p></li>
+</ol>
+
+<p>Here is an example of the data layer object:</p>
+
+<pre><code>{   
+   'event': 'gtm4wp.orderCompleted',
+   'transactionId': '1234',
+   'transactionAffiliation': 'Acme Clothing',
+   'transactionTotal': 38.26,
+   'transactionTax': 1.29,
+   'transactionShipping': 5,
+   'transactionProducts': [{
+       'sku': 'DD44',
+       'name': 'T-Shirt',
+       'category': 'Apparel',
+       'price': 11.99,
+       'quantity': 1
+   },{
+       'sku': 'AA1243544',
+       'name': 'Socks',
+       'category': 'Apparel',
+       'price': 9.99,
+       'quantity': 2
+   }]
+}
+</code></pre>
+
+<p>It is possible to integrate the data layer with java script manually, however we recommend to use the build-in feature of your ecommerce framework to push the data layer on the order confirmation page. Woo Commerce, Shopify, Magento or any common ecommerce framework feature plugins that integrate the data layer on the confirmation page.</p>
+
+<ol>
+<li>Test the data layer object</li>
+</ol>
+
+<p>We want to test if the data layer is working correctly. Therefore best practice is to make a test order in your online shop system and inspect the order confirmation page with the developer tools of the web browser.</p>
+
+<p>On the confirmation page of the order, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called <strong>event</strong>. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.</p>
+
+<p><img src="img/gtm3_small.png" alt="Testing the data layer object" /></p>
+
+<ol>
+<li>Configuration of Google Tag Manager</li>
+</ol>
+
+<p>After the implementation of the data layer we can create a tag for the transaction.</p>
+
+<ol>
+<li>Go to Google Tag Manager and create a Tag: &ldquo;Google Analytics Transaction&rdquo;</li>
+<li>Choose product: Google Analytics</li>
+<li>Choose tag type: Universal Analytics</li>
+<li>Configure Tag: Use GA Tracking ID: &ldquo;UA-**********&ldquo;&rdquo; and set track type to: &ldquo;Transaction&rdquo;</li>
+<li>Fire On: Click More &ndash;&gt; Create new Trigger: Call it &ldquo;Transaction&rdquo;, Choose Event: &ldquo;Custom Event&rdquo;, Fire On: Event and add the event value you saved from data layer object previously. Save Trigger</li>
+</ol>
+
+<p>Now you finished the implementation of the Ecommerce Tracking and future transactions will appear in Google Analytics.</p>
+
   </div>
   
   <div class="post">
