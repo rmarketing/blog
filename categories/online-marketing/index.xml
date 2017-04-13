@@ -9,7 +9,7 @@
     <atom:link href="http://rmarketing.io/blog/categories/online-marketing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>ecommerce tracking with google analytics and tag manager</title>
+      <title>E-commerce Tracking With Google Analytics and Google Tag Manager</title>
       <link>http://rmarketing.io/blog/post/ecommerce-tracking-with-google-analytics-and-tag-manager/</link>
       <pubDate>Wed, 05 Apr 2017 21:42:05 +0200</pubDate>
       
@@ -106,7 +106,7 @@
     </item>
     
     <item>
-      <title>google tag manager</title>
+      <title>Set Up Google Tag Manager in 3 Steps</title>
       <link>http://rmarketing.io/blog/post/google-tag-manager/</link>
       <pubDate>Sat, 25 Mar 2017 11:09:05 +0100</pubDate>
       
@@ -185,12 +185,14 @@ In the Google Chrome Browser go to Settings &amp;gt; Extension and add the &lt;s
     </item>
     
     <item>
-      <title>Basic Google Analytics Setup</title>
+      <title>Basic Google Analytics Setup in 10 Easy Steps</title>
       <link>http://rmarketing.io/blog/post/basic-google-analytics-setup/</link>
       <pubDate>Sat, 25 Mar 2017 10:20:49 +0100</pubDate>
       
       <guid>http://rmarketing.io/blog/post/basic-google-analytics-setup/</guid>
       <description>&lt;p&gt;In order to gain insights to your website&amp;rsquo;s traffic and user behavior from reports or data analysis, you have to collect data of the website usage first.  Google Analytics does the core reporting and data collection. In this post we explain how to setup up a Google Analytics account with standard page tracking. If you already have a working Google Analytics account you can skip this post.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Sign in to Google Analytics or create an account: &lt;a href=&#34;https://analytics.google.com/analytics/&#34;&gt;https://analytics.google.com/analytics/&lt;/a&gt;&lt;/li&gt;
@@ -214,8 +216,7 @@ Yet, you have to add the tracking code snippet to your website.
 Instead of adding the code snippet directly we recommend to use another tool out
 of Google&amp;rsquo;s toolbox: the &lt;strong&gt;Google Tag Manager (GTM)&lt;/strong&gt;. GTM is a nifty tool when
 comes to staying in charge of a plethora of tracking tools and services.
-Which is why we dedicated an &lt;a href=&#34;http://rmarketing.io/blog/blog/post/google-tag-manager&#34;&gt;extra blog post to Google Tag Manager (GTM)&lt;/a&gt;.&lt;/p&gt;
-</description>
+Which is why we dedicated an &lt;a href=&#34;http://rmarketing.io/blog/blog/post/google-tag-manager&#34;&gt;extra blog post to Google Tag Manager (GTM)&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

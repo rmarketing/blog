@@ -56,241 +56,51 @@
   <div class="post">
     <h1 class="post-title">
       <a href="http://rmarketing.io/blog/post/ecommerce-tracking-with-google-analytics-and-tag-manager/">
-        ecommerce tracking with google analytics and tag manager
+        E-commerce Tracking With Google Analytics and Google Tag Manager
       </a>
     </h1>
 
     <span class="post-date">Wed, Apr 5, 2017</span>
-    <p>In order to setup ecommerce tracking we assume that you successfully implemented Google Analytics with Google Tag Manager.</p>
-
-<p>Ecommerce tracking enables the tracking of sales data on the thank you page (confirmation or checkout page). This includes all information about your shopping basket like number of sales, products, revenues, value per order, etc.</p>
-
-<p>In other words, the confirmation page features a data layer with all information about the transaction, which we can extract with the Google Tag Manager and Google Analytics implementation.</p>
-
-<p>There are two main types of ecommerce implementation methods:</p>
-
-<p><strong>Standard ecommerce</strong> reports in Google Analytics allow you to analyze purchase activity on your site or app. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other data.</p>
-
-<p><strong>Enhanced ecommerce</strong> adds functionality by allowing you to see when customers have added items to their shopping carts, when they have started the checkout process, and when they have completed a purchase. You can also use Enhanced Ecommerce to identify segments of customers who are falling out of the shopping funnel.</p>
-
-<p>Both methods of ecommerce tracking can be implemented with Google Tag Manager. In this section we will focus on <strong>standard ecommerce tracking</strong>.</p>
-
-<p>Before we start with the implementation of the standard ecommerce tracking, there is a really useful Youtube video that is worth watching and might clarify further questions you have upfront the implementation: <a href="https://youtu.be/ZKjlIhFJMCU">https://youtu.be/ZKjlIhFJMCU</a></p>
-
-<p>The setup of the standard ecommerce tracking is split into three steps:</p>
-
-<ol>
-<li>Installation of the data layer</li>
-<li>Testing the data layer</li>
-
-<li><p>Configuration of the Google Tag Manager</p></li>
-
-<li><p>Installation of the data layer object on the thank you page.</p></li>
-</ol>
-
-<p>Here is an example of the data layer object:</p>
-
-<pre><code>{   
-   'event': 'gtm4wp.orderCompleted',
-   'transactionId': '1234',
-   'transactionAffiliation': 'Acme Clothing',
-   'transactionTotal': 38.26,
-   'transactionTax': 1.29,
-   'transactionShipping': 5,
-   'transactionProducts': [{
-       'sku': 'DD44',
-       'name': 'T-Shirt',
-       'category': 'Apparel',
-       'price': 11.99,
-       'quantity': 1
-   },{
-       'sku': 'AA1243544',
-       'name': 'Socks',
-       'category': 'Apparel',
-       'price': 9.99,
-       'quantity': 2
-   }]
-}
-</code></pre>
-
-<p>It is possible to integrate the data layer with java script manually, however we recommend to use the build-in feature of your ecommerce framework to push the data layer on the order confirmation page. Woo Commerce, Shopify, Magento or any common ecommerce framework feature plugins that integrate the data layer on the confirmation page.</p>
-
-<ol>
-<li>Test the data layer object</li>
-</ol>
-
-<p>We want to test if the data layer is working correctly. Therefore best practice is to make a test order in your online shop system and inspect the order confirmation page with the developer tools of the web browser.</p>
-
-<p>On the confirmation page of the order, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called <strong>event</strong>. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.</p>
-
-<p><img src="img/gtm3_small.png" alt="Testing the data layer object" /></p>
-
-<ol>
-<li>Configuration of Google Tag Manager</li>
-</ol>
-
-<p>After the implementation of the data layer we can create a tag for the transaction.</p>
-
-<ol>
-<li>Go to Google Tag Manager and create a Tag: &ldquo;Google Analytics Transaction&rdquo;</li>
-<li>Choose product: Google Analytics</li>
-<li>Choose tag type: Universal Analytics</li>
-<li>Configure Tag: Use GA Tracking ID: &ldquo;UA-**********&ldquo;&rdquo; and set track type to: &ldquo;Transaction&rdquo;</li>
-<li>Fire On: Click More &ndash;&gt; Create new Trigger: Call it &ldquo;Transaction&rdquo;, Choose Event: &ldquo;Custom Event&rdquo;, Fire On: Event and add the event value you saved from data layer object previously. Save Trigger</li>
-</ol>
-
-<p>Now you finished the implementation of the Ecommerce Tracking and future transactions will appear in Google Analytics.</p>
-
+    In order to setup ecommerce tracking we assume that you successfully implemented Google Analytics with Google Tag Manager.
+Ecommerce tracking enables the tracking of sales data on the thank you page (confirmation or checkout page). This includes all information about your shopping basket like number of sales, products, revenues, value per order, etc.
+In other words, the confirmation page features a data layer with all information about the transaction, which we can extract with the Google Tag Manager and Google Analytics implementation.
   </div>
   
   <div class="post">
     <h1 class="post-title">
       <a href="http://rmarketing.io/blog/post/google-tag-manager/">
-        google tag manager
+        Set Up Google Tag Manager in 3 Steps
       </a>
     </h1>
 
     <span class="post-date">Sat, Mar 25, 2017</span>
-    
-
-<p>As discussed at the end of the previous post,
-we recommend <strong>Google Tag Manager (GTM)</strong> as an umbrella for all your tracking
-tokens and code snippets. Even if Google Analytics is the only service you use,
-<strong>GTM</strong> remains a simple and expandable option.</p>
-
-<p>The big advantage of <strong>GTM</strong> is that you only have to add a single code
-snippet from Google Tag Manager to your website instead of including multiple
-tracking snippets from services like Google Analytics, AdWords,
-AdWords Remarketing, Facebook, etc. Through <strong>GTM</strong>&rsquo;s web interface, you can
-manage all these tracking snippets. That way you are flexible to make changes
-or extend your tracking implementation in the future without touching the
-code of your website.</p>
-
-<h3 id="setup-google-tag-manager-gtm">Setup Google Tag Manager (GTM)</h3>
-
-<h4 id="1-create-gtm-account">1. Create GTM Account</h4>
-
-<p>To get started managing your tags using Tag Manager:</p>
-
-<ol>
-<li>Go to <a href="https://www.google.com/analytics/tag-manager/">https://www.google.com/analytics/tag-manager/</a> and create a Tag Manager account (you can use your existing Google account).</li>
-<li>Create a container for your site or app.</li>
-</ol>
-
-<p><img src="/blog/images/gtm1_small.png" alt="Creating an account in Google Tag Manager" /></p>
-
-<h4 id="2-add-the-google-tag-manager-container-to-your-website">2. Add the Google Tag Manager container to your website</h4>
-
-<p>Assuming you created the Google Tag Manager container in the previous step, you automatically will get directed to the page with the code snippet for the Tag Manager container. Copy the code and add it to all your pages – it’s recommended to add the code right after the opening <body> tag on all your pages. If you’re using a Content Management System like Wordpress, Shopify, Magento or anything alike you should insert it in the template that serves all pages.</p>
-
-<p>If you are using Google Analytics tracking without Google Tag Manager already, it is now time to replace all existing Google Analytics code snippets with the Google Tag Manager code snippet.</p>
-
-<p>For web pages: Add the container snippet to your site while removing any existing tags.
-For mobile apps: Implementation of Tag Manager for mobile apps is done in conjunction with the Firebase SDK. See the Google Android or Apple iOS documentation for more information.</p>
-
-<h4 id="3-create-the-google-analytics-tag">3. Create the Google Analytics tag</h4>
-
-<p>Now we can create the tag for Google Analytics within Google Tag Manager.</p>
-
-<p>In your Google Tag Manager Account proceed with the following steps:</p>
-
-<ol>
-<li>Create Tag</li>
-<li>Choose product: &ldquo;Google Analytics&rdquo;</li>
-<li>Choose Tag Type: &ldquo;Universal Analytics&rdquo;</li>
-<li>Configure Tag: Paste the &ldquo;UA-**********&rdquo; Tracking ID from Google Analytics. (You will find the Google Analytics Tracking ID in the settings of your Google Analytics Account under Property &gt; Tracking Info.) Set track type to &ldquo;Page View&rdquo;.</li>
-<li>Fire On: All Pages</li>
-<li>Create Tag</li>
-</ol>
-
-<p><img src="/blog/images/gtm2_small.png" alt="Creating an Google Analytics tag in GTM" /></p>
-
-<p>Now you have created the Google Analytics tag. Moreover you can watch this Youtube video that summarizes step 1. - 5:</p>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/irNpwlEn1ZM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<h4 id="4-publish-and-test-the-tag">4. Publish and test the tag.</h4>
-
-<p>Now it’s time to preview the site, make sure the tracking works as expected and the tag is firing correctly.</p>
-
-<p>From the Tags page, click Create Version. A page appears that summarizes all the tags, rules, and macros in the container. Click Save and Preview. When your website appears properly in the preview mode, you can go back and click Publish.</p>
-
-<p>Google provides a really useful browser extension for Google Chrome that allows you to test if the Google Tag Manager container and the Google Analytics tag is working properly.
-In the Google Chrome Browser go to Settings &gt; Extension and add the <strong>Google Tag Assistant</strong> extension. Now visit your website and click on the Google Tag Assistant icon in top right of the Chrome browser window. The Google Tag Assistant shows green light for the Tag Manager container and the Google Analytics tag.</p>
-
+    As discussed at the end of the previous post, we recommend Google Tag Manager (GTM) as an umbrella for all your tracking tokens and code snippets. Even if Google Analytics is the only service you use, GTM remains a simple and expandable option.
+The big advantage of GTM is that you only have to add a single code snippet from Google Tag Manager to your website instead of including multiple tracking snippets from services like Google Analytics, AdWords, AdWords Remarketing, Facebook, etc.
   </div>
   
   <div class="post">
     <h1 class="post-title">
       <a href="http://rmarketing.io/blog/post/basic-google-analytics-setup/">
-        Basic Google Analytics Setup
+        Basic Google Analytics Setup in 10 Easy Steps
       </a>
     </h1>
 
     <span class="post-date">Sat, Mar 25, 2017</span>
     <p>In order to gain insights to your website&rsquo;s traffic and user behavior from reports or data analysis, you have to collect data of the website usage first.  Google Analytics does the core reporting and data collection. In this post we explain how to setup up a Google Analytics account with standard page tracking. If you already have a working Google Analytics account you can skip this post.</p>
 
-<ol>
-<li>Sign in to Google Analytics or create an account: <a href="https://analytics.google.com/analytics/">https://analytics.google.com/analytics/</a></li>
-<li>Click Admin (bottom left).</li>
-<li>In the ACCOUNT column, use the menu to select the account to which you want to add the property.
-If you have a lot of accounts, use the search box to help you find the right one.</li>
-<li>In the PROPERTY column, select Create new property from the menu.
-If you don&rsquo;t have Edit permission on the account, you won&rsquo;t see the Create new property option. Check that you&rsquo;ve selected the correct account in the ACCOUNT column.</li>
-<li>Select Website or Mobile app.</li>
-<li>Enter the Website or App Name.
-If you plan on tracking more than one app in your account, use a very specific and descriptive name that includes the edition or version number. This will help you keep your app properties organized.</li>
-<li>(Web only) Enter the Web Site URL.</li>
-<li>Select an Industry Category.</li>
-<li>Select the Reporting Time Zone.
-This will be used as the day boundary for your reports, regardless of where the data originates.</li>
-<li>Click Get Tracking ID.</li>
-</ol>
-
-<p><strong>Congrats!</strong> Your account and property are set up after completing step 10.
-Yet, you have to add the tracking code snippet to your website.
-Instead of adding the code snippet directly we recommend to use another tool out
-of Google&rsquo;s toolbox: the <strong>Google Tag Manager (GTM)</strong>. GTM is a nifty tool when
-comes to staying in charge of a plethora of tracking tools and services.
-Which is why we dedicated an <a href="/blog/post/google-tag-manager">extra blog post to Google Tag Manager (GTM)</a>.</p>
-
+<p></p>
   </div>
   
   <div class="post">
     <h1 class="post-title">
       <a href="http://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/">
-        Get the most out of your Google Analytics Tracking
+        Get the Most Out of Your Google Analytics Tracking
       </a>
     </h1>
 
     <span class="post-date">Fri, Mar 24, 2017</span>
-    <p>Many who use Google Analytics (GA) to track their websites&rsquo; online traffic only
-set up a basic tracking implementation. I.e., copy and paste Google&rsquo;s tracking code
-snippet into one&rsquo;s website and start collecting data.</p>
-
-<p>Doing so is sufficient to obtain basic metrics such as visitors or page views.
-Yet simply placing a basic code snippet falls short of both: deeper and
-regular analysis of your (e-commerce) online business.
-And in turn it also falls short of actually learning from information by
-steadily observing metrics and assess them over time.
-Hence we start a series of blog posts to help you get the most out of
-your Google Analytics implementation.</p>
-
-<p>Our posts will address:</p>
-
-<ol>
-<li><a href="post/basic-google-analytics-setup/">the basic GA setup</a>, in order to get y&rsquo;all on the same starting page.</li>
-<li>how to use <a href="how-to-use-google-tag-manager">Google Tag Manager (GTM)</a> to leverage the overhead of setting up various tracking tools.</li>
-<li>how to keep track of performance indicators that drive your business, e.g.,
-online sales, revenues or subscriptions.</li>
-<li>how to to enable e-commerce tracking</li>
-<li>link your analytics account to Google Adwords, Google Search Console (formerly known as webmaster tools)</li>
-</ol>
-
+    Many who use Google Analytics (GA) to track their websites&rsquo; online traffic only set up a basic tracking implementation. I.e., copy and paste Google&rsquo;s tracking code snippet into one&rsquo;s website and start collecting data.
+Doing so is sufficient to obtain basic metrics such as visitors or page views. Yet simply placing a basic code snippet falls short of both: deeper and regular analysis of your (e-commerce) online business. And in turn it also falls short of actually learning from information by steadily observing metrics and assess them over time.
   </div>
   
 
