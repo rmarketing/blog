@@ -29,7 +29,13 @@
 
 &lt;p&gt;Both methods of ecommerce tracking can be implemented with Google Tag Manager. In this section we will focus on &lt;strong&gt;standard ecommerce tracking&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Before we start with the implementation of the standard ecommerce tracking, there is a really useful Youtube video that is worth watching and might clarify further questions you have upfront the implementation: &lt;a href=&#34;https://youtu.be/ZKjlIhFJMCU&#34;&gt;https://youtu.be/ZKjlIhFJMCU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Before we start with the implementation of the standard ecommerce tracking, there is a really useful Youtube video that is worth watching and might clarify further questions you have upfront the implementation:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZKjlIhFJMCU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;p&gt;The setup of the standard ecommerce tracking is split into three steps:&lt;/p&gt;
 
@@ -125,7 +131,9 @@ code of your website.&lt;/p&gt;
 &lt;p&gt;To get started managing your tags using Tag Manager:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://www.google.com/analytics/tag-manager/&#34;&gt;https://www.google.com/analytics/tag-manager/&lt;/a&gt; and create a Tag Manager account (you can use your existing Google account).&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://www.google.com/analytics/tag-manager/&#34; target=&#34;_blank&#34;&gt;
+www.google.com/analytics/tag-manager&lt;br /&gt;
+&lt;/a&gt; and create a Tag Manager account (you can use your existing Google account).&lt;/li&gt;
 &lt;li&gt;Create a container for your site or app.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -187,7 +195,8 @@ In the Google Chrome Browser go to Settings &amp;gt; Extension and add the &lt;s
 &lt;p&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Sign in to Google Analytics or create an account: &lt;a href=&#34;https://analytics.google.com/analytics/&#34;&gt;https://analytics.google.com/analytics/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sign in to Google Analytics or create an account:
+&lt;a href=&#34;https://analytics.google.com/analytics/&#34; target= &#34;_blank&#34;&gt;analytics.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Click Admin (bottom left).&lt;/li&gt;
 &lt;li&gt;In the ACCOUNT column, use the menu to select the account to which you want to add the property.
 If you have a lot of accounts, use the search box to help you find the right one.&lt;/li&gt;
