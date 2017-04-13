@@ -76,7 +76,7 @@
 
 &lt;p&gt;On the confirmation page of the order, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called &lt;strong&gt;event&lt;/strong&gt;. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;img/gtm3_small.png&#34; alt=&#34;Testing the data layer object&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rmarketing.io/blog/blog/images/gtm3_small.png&#34; alt=&#34;Testing the data layer object&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Configuration of Google Tag Manager&lt;/li&gt;

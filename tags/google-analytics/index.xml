@@ -76,7 +76,7 @@
 
 &lt;p&gt;On the confirmation page of the order, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called &lt;strong&gt;event&lt;/strong&gt;. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;img/gtm3_small.png&#34; alt=&#34;Testing the data layer object&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://rmarketing.io/blog/blog/images/gtm3_small.png&#34; alt=&#34;Testing the data layer object&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Configuration of Google Tag Manager&lt;/li&gt;
@@ -220,7 +220,7 @@ Which is why we dedicated an &lt;a href=&#34;http://rmarketing.io/blog/blog/post
     </item>
     
     <item>
-      <title>Get the Most Out of Your Google Analytics Tracking</title>
+      <title>Marketer&#39;s Guide to Google Analytics and E-Commerce Tracking</title>
       <link>http://rmarketing.io/blog/post/get-the-most-out-of-your-google-analytics/</link>
       <pubDate>Fri, 24 Mar 2017 18:40:24 +0100</pubDate>
       
@@ -237,14 +237,14 @@ steadily observing metrics and assess them over time.
 Hence we start a series of blog posts to help you get the most out of
 your Google Analytics implementation.&lt;/p&gt;
 
-&lt;p&gt;Our posts will address:&lt;/p&gt;
+&lt;p&gt;Our (future) posts will address:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;post/basic-google-analytics-setup/&#34;&gt;the basic GA setup&lt;/a&gt;, in order to get y&amp;rsquo;all on the same starting page.&lt;/li&gt;
-&lt;li&gt;how to use &lt;a href=&#34;how-to-use-google-tag-manager&#34;&gt;Google Tag Manager (GTM)&lt;/a&gt; to leverage the overhead of setting up various tracking tools.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../basic-google-analytics-setup/&#34;&gt;the basic GA setup&lt;/a&gt;, in order to get y&amp;rsquo;all on the same starting page.&lt;/li&gt;
+&lt;li&gt;how to use &lt;a href=&#34;../google-tag-manager&#34;&gt;Google Tag Manager (GTM)&lt;/a&gt; to leverage the overhead of setting up various tracking tools.&lt;/li&gt;
 &lt;li&gt;how to keep track of performance indicators that drive your business, e.g.,
 online sales, revenues or subscriptions.&lt;/li&gt;
-&lt;li&gt;how to to enable e-commerce tracking&lt;/li&gt;
+&lt;li&gt;how to to &lt;a href=&#34;../ecommerce-tracking-with-google-analytics-and-tag-manager/&#34;&gt;enable e-commerce tracking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;link your analytics account to Google Adwords, Google Search Console (formerly known as webmaster tools)&lt;/li&gt;
 &lt;/ol&gt;
 </description>
