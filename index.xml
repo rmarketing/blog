@@ -15,18 +15,17 @@
       <pubDate>Wed, 05 Apr 2017 21:42:05 +0200</pubDate>
       
       <guid>http://rmarketing.io/blog/post/ecommerce-tracking-with-google-analytics-and-tag-manager/</guid>
-      <description>&lt;p&gt;At this point, we assume that you have successfully implemented Google Analytics with Google Tag Manager (If not, check the previous posts). E-commerce tracking enables tracking sales data at checkout (thank you or confirmation page). Such a page should include all information about a visitor&amp;rsquo;s shopping basket, such as amount of goods, products, revenues, value per order, etc. In other words, the confirmation page features a data layer with all information about the transaction. In turn our combo of Google Tag Manager and Google Analytics can extract the this information. This post explain in greater detail how a such a data layer looks like and how it can be exploited.&lt;/p&gt;
+      <description>&lt;p&gt;At this point, we assume that you have successfully added Google Analytics using Google Tag Manager to your website (If not, check the previous posts). In this post we will explain how to add e-commerce tracking to the mix. E-commerce tracking means tracking sales data at checkout (that is, through the thank you or confirmation page of a shop). Such a confirmation page should include all information about a visitor&amp;rsquo;s shopping basket: amount of goods, products, product related revenues, value per order, taxes etc. In other words, the confirmation page features a data layer which is should be pretty relevant to online shop owners. An yup, our combo of Google Tag Manager and Google Analytics can extract this information with ease. This post explains in greater detail how a such a data layer works and how it can be exploited using Google&amp;rsquo;s e-commerce tracking.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
 &lt;p&gt;In Analytics, there are two main types of e-commerce tracking methods:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Standard e-commerce&lt;/strong&gt; reports in Google Analytics allow you to analyze purchase activity on your site or app. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standard e-commerce&lt;/strong&gt; reports in Google Analytics allow you to analyze purchase activity on your site or app. You can see product and transaction information, average order value, e-commerce conversion rate, time to purchase, and other data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Enhanced e-commerce&lt;/strong&gt; adds functionality allowing you to see when customers have added items to their shopping carts, when they have started the checkout process, and when they have completed a purchase. You can also use Enhanced E-commerce to identify segments of customers who are falling out of the shopping funnel.&lt;/p&gt;
 
-&lt;p&gt;Both methods of e-commerce tracking can be implemented using Google Tag Manager. In this section we will focus on &lt;strong&gt;standard e-commerce tracking&lt;/strong&gt;.
-Before we start with the implementation of the standard e-commerce tracking, let&amp;rsquo;s have a look at a really useful video that might clarify further questions upfront.&lt;/p&gt;
+&lt;p&gt;Both methods of e-commerce tracking can be implemented using Google Tag Manager. In this post we will focus on &lt;strong&gt;standard e-commerce tracking&lt;/strong&gt;. Before we start with the implementation of the standard e-commerce tracking, let&amp;rsquo;s have a look at a really useful video that might clarify further questions upfront.&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -40,7 +39,7 @@ Before we start with the implementation of the standard e-commerce tracking, let
 &lt;li&gt;Installation of the data layer&lt;/li&gt;
 &lt;li&gt;Testing the data layer&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Configuration of the Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configuration of Google Tag Manager&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Embed data layer object on the thank you page.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -70,13 +69,13 @@ Before we start with the implementation of the standard e-commerce tracking, let
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;It is possible to integrate the data layer manually with javascript, however, we recommend to use the build-in feature of your e-commerce framework to add the data layer to the order confirmation page. Woo Commerce, Shopify, Magento and many common e-commerce framework sport plugins that integrate the data layer on the confirmation page.&lt;/p&gt;
+&lt;p&gt;It is possible to integrate the data layer manually using javascript. However, we recommend to use the build-in feature of your e-commerce framework to add the data layer to the order confirmation page. Woo Commerce, Shopify, Magento and many common e-commerce frameworks sport plugins to integrate a data layer on the confirmation page.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Test the data layer object&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Now, let&amp;rsquo;s see whether the data layer is working correctly: Best practice is to make a test order in your online shop system and inspect the order confirmation page with the developer tools in your web browser. On the confirmation page of the order, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called &lt;strong&gt;event&lt;/strong&gt;. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s see whether the data layer is working correctly: Best practice is to make a test order in your online shop system and inspect the order confirmation page with the developer tools in your web browser. On the confirmation page, open the inspection tool of the web browser and click on console. You will find the data layer object as in the example above. If everything works correctly the data layer object contains the product information of your test order. Among other things there is an element which is called &lt;strong&gt;event&lt;/strong&gt;. Copy and save the value of the event parameter. We will use it for the following configuration of the Google Tag Manager.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://rmarketing.io/blog/blog/images/gtm3_small.png&#34; alt=&#34;Testing the data layer object&#34; /&gt;&lt;/p&gt;
 
@@ -84,14 +83,14 @@ Before we start with the implementation of the standard e-commerce tracking, let
 &lt;li&gt;Configuration of Google Tag Manager&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;After the implementation of the data layer we can create a tag for the transaction.&lt;/p&gt;
+&lt;p&gt;After adding the data layer we can create a tag for the transaction.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Go to Google Tag Manager and create a Tag: &amp;ldquo;Google Analytics Transaction&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Choose product: Google Analytics&lt;/li&gt;
 &lt;li&gt;Choose tag type: Universal Analytics&lt;/li&gt;
 &lt;li&gt;Configure Tag: Use GA Tracking ID: &amp;ldquo;UA-**********&amp;ldquo;&amp;rdquo; and set track type to: &amp;ldquo;Transaction&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Fire On: Click More &amp;ndash;&amp;gt; Create new Trigger: Call it &amp;ldquo;Transaction&amp;rdquo;, Choose Event: &amp;ldquo;Custom Event&amp;rdquo;, Fire On: Event and add the event value you saved from data layer object previously. Save Trigger&lt;/li&gt;
+&lt;li&gt;Fire On: Click More &amp;ndash;&amp;gt; Create new Trigger: Call it &amp;ldquo;Transaction&amp;rdquo;, Choose Event: &amp;ldquo;Custom Event&amp;rdquo;, Fire On: Event and add the event value you previously saved from data layer object. Save Trigger.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Congrats, you&amp;rsquo;re done adding e-commerce tracking and future transactions will appear in Google Analytics.&lt;/p&gt;
