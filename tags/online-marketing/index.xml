@@ -18,6 +18,8 @@
 a hyper-competitive race for your must-have keyword can consume a lot
 of time and money while the outcome is all but certain. &lt;a href=&#34;https://www.tagseoblog.de/die-seo-luft-ist-raus&#34;&gt;Some&lt;/a&gt; even proclaim that the times of optimizing every little detail of one&amp;rsquo;s search engine relevant content are over. Point taken, but you can only speak of over-engineering if the basic requirements of SEO&amp;rsquo;s 101 are met:&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;Before we start with the minimal 5 step list, note that when I speak of keywords here, I am not referring to meta keywords you put into your HTML meta header, which are remnants of the ancient 90s. I rather mean &amp;lsquo;search words that are relevant to your site&amp;rsquo; in general.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -62,8 +64,7 @@ extension is installed.&lt;/p&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;A robots.txt is a file that tells search engine bots where to go and where not to go to.
-You can disallow your CMS admin pages or other pages that should not be listed on Google and other search engines. Just google for &amp;lsquo;robots.txt&amp;rsquo; and you will find plenty of inspiration. Also, your CMS or shop should be able to generate such a file. Usually it&amp;rsquo;s also located at the document root.&lt;/p&gt;
-</description>
+You can disallow your CMS admin pages or other pages that should not be listed on Google and other search engines. Just google for &amp;lsquo;robots.txt&amp;rsquo; and you will find plenty of inspiration. Also, your CMS or shop should be able to generate such a file. Usually it&amp;rsquo;s also located at the document root.&lt;/p&gt;</description>
     </item>
     
     <item>
