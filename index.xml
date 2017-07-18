@@ -107,6 +107,64 @@
     </item>
     
     <item>
+      <title>SEO 101: 5 steps to search engine optimization minimalism</title>
+      <link>http://rmarketing.io/blog/post/seo-101/</link>
+      <pubDate>Sat, 25 Mar 2017 11:09:05 +0100</pubDate>
+      
+      <guid>http://rmarketing.io/blog/post/seo-101/</guid>
+      <description>&lt;p&gt;Whether you make or buy SEO, fighting for the last virtual inch in
+a hyper-competitive race for your must-have keyword can consume a lot
+of time and money while the outcome is all but certain. &lt;a href=&#34;https://www.tagseoblog.de/die-seo-luft-ist-raus&#34;&gt;Some&lt;/a&gt; even proclaim that the times of optimizing every little detail of one&amp;rsquo;s search engine relevant content are over. Point taken, but you can only speak of over-engineering if the basic requirements of SEO&amp;rsquo;s 101 are met:&lt;/p&gt;
+
+&lt;p&gt;Before we start with the minimal 5 step list, note that when I speak of keywords here, I am not referring to meta keywords you put into your HTML meta header, which are remnants of the ancient 90s. I rather mean &amp;lsquo;search words that are relevant to your site&amp;rsquo; in general.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Find a Realistic Strategy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You&amp;rsquo;re highly unlikely to de-throne amazon in an unspecific book search or trump Nike, Adidas or even Under Armour when it comes to looking for shoes online. You can&amp;rsquo;t win
+the battle for &amp;lsquo;running shoe&amp;rsquo;, &amp;lsquo;book&amp;rsquo;, &amp;lsquo;jacket&amp;rsquo;. Google&amp;rsquo;s mission to provide everybody
+with the most relevant search result does not care about diversity. If the most relevant
+results all come from the same large retailer&amp;rsquo;s page their pages will be shown.&lt;/p&gt;
+
+&lt;p&gt;So rather be a little more specific, e.g., &amp;lsquo;breathable running shoe&amp;rsquo; and maybe add a local
+tag such as &amp;lsquo;Norway&amp;rsquo; or &amp;lsquo;Munich&amp;rsquo;. Admittedly, you will give up some ground elsewhere, but it is totally irrelevant whether you are 25th or 23rd on the result list. In turn being listed on the first page for a more exotic search will definitely give you traffic from these searches. And you do not have to limit yourself to a single landing page.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Get Title Tags and Meta Descriptions Right&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Apart from the site&amp;rsquo;s content, meta description and title tag are among the
+most relevant information to Google. If your&amp;rsquo;s is up to date and complete for every single subpage, salute yourself. If not, go get a tool like the &lt;a href=&#34;https://chrome.google.com/webstore/detail/seo-meta-in-1-click/bjogjfinolnhfhkbipphpdlldadpnmhc?hl=en&#34;&gt;SEO Meta in 1 Click extension for
+Google Chrome&lt;/a&gt;, browse through your pages and check whether you got suitable meta descriptions and titles. Suitable means 30-65 characters for titles and 120-156 characters for meta descriptions. And of course suitable means relevant and inline with the text and content on that specific page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://rmarketing.io/blog/blog/images/seo_meta_extension.png&#34; alt=&#34;SEO Meta in 1 Click&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use speaking URLs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Most serious CMS or online shops offer speaking urls like myshop.com/men/jackets/hyper-breathable-parka-model-x instead of cryptic urls such as myshop.com/index.php?id=7831794. Make sure this feature is switched on or the corresponding
+extension is installed.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create Sitemaps and Index Them&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Again, most CMS or online shops provide automatic sitemap creation. In case your CMS does not, sites like &lt;a href=&#34;https://www.xml-sitemaps.com/&#34;&gt;XML Sitemaps&lt;/a&gt; help you to do so. Sitemaps help Google to index your page and its subpages. They are simply automatically created XML files that live in your website&amp;rsquo;s document root or in another publicly accessible place.&lt;/p&gt;
+
+&lt;p&gt;You can list one or more sitemap at &lt;a href=&#34;https://www.google.com/webmasters/tools/&#34;&gt;Google Webmaster Tools&lt;/a&gt;. Simply register your site and click Google Index to register your sitemap xml files.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add a robots.txt&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A robots.txt is a file that tells search engine bots where to go and where not to go to.
+You can disallow your CMS admin pages or other pages that should not be listed on Google and other search engines. Just google for &amp;lsquo;robots.txt&amp;rsquo; and you will find plenty of inspiration. Also, your CMS or shop should be able to generate such a file. Usually it&amp;rsquo;s also located at the document root.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Set Up Google Tag Manager in 3 Steps</title>
       <link>http://rmarketing.io/blog/post/google-tag-manager/</link>
       <pubDate>Sat, 25 Mar 2017 11:09:05 +0100</pubDate>
